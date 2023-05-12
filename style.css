@@ -1,0 +1,276 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.magin-10px {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    background-color: rgb(0, 0, 0);
+}
+
+.navbar {
+    /* box-shadow: rgba(158, 113, 113, 0.35) 0px 5px 15px; */
+    width: 80%;
+    margin: auto;
+    /* border: 2px solid green; */
+}
+
+#logo {
+    /* border: 2px solid red; */
+    height: 40px;
+    width: 40px;
+}
+
+.left-box {
+    width: 50%;
+    /* border: 2px solid yellow; */
+}
+
+.navlists {
+    /* border: 2px solid blue; */
+}
+
+.right-box {
+    width: 50%;
+    /* justify-content: right; */
+    /* border: 2px solid firebrick; */
+}
+
+.navlists li {
+    /* border: 2px solid pink; */
+    list-style: none;
+    padding: 0px 12px;
+}
+
+.navlists li a:hover {
+    color: rgb(231, 100, 100);
+}
+
+.search-anything {
+    color: white;
+    padding: 3px 6px;
+    font-size: 13px;
+    width: 67%;
+    height: 10px;
+    background-color: black;
+}
+
+.search-btn {
+    background-color: rgb(254, 254, 254);
+    color: black;
+    border-radius: 5px;
+    padding: 0px 7px;
+    width: 23%;
+    margin: 0px 10px;
+}
+
+.search-btn:hover {
+    color: black;
+    background-color: brown;
+}
+
+@media(max-width:1250px) {
+    .left-box {
+        width: 100%;
+        justify-content: center;
+    }
+    .right-box {
+        width: 100%;
+        justify-content: center;
+    }
+    .navbar {
+        flex-direction: column;
+    }
+}
+
+@media(max-width:630px) {
+    .left-box {
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar {
+        width: 100%;
+    }
+    .navlists {
+        width: 98%;
+        justify-content: center;
+    }
+    .right-box {
+        width: 95%;
+        margin: 10px;
+    }
+}
+
+@media(max-width:455px) {
+    .navlists {
+        width: 98%;
+    }
+    .navlists li {
+        padding: 0px 7px;
+        font-size: 13px;
+    }
+    .search-anything {
+        color: white;
+        padding: 3px 6px;
+        font-size: 13px;
+        width: 67%;
+        height: 10px;
+        background-color: black;
+    }
+    .magin-10px {
+        margin-left: 10px;
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 335px) {
+    .navlists li {
+        font-size: 11px;
+        padding: 0px 4px;
+    }
+}
+
+@media(max-width:300px) {
+    .navlists li {
+        font-size: 10px;
+        padding: 0px 4px;
+        /* border: 2px solid red; */
+    }
+    .search-anything {
+        color: white;
+        padding: 3px 6px;
+        font-size: 13px;
+        width: 67%;
+        height: 10px;
+        background-color: black;
+    }
+    .search-btn {
+        padding: 0px 7px;
+        width: 23%;
+        margin: 0px 10px;
+    }
+}
+
+.section1 {
+    /* border: 2px solid red; */
+    background-color: rgb(240, 238, 233);
+}
+
+.img1 {
+    width: 100%;
+    height: 300px;
+    /* border: 2px solid yellow; */
+}
+
+.img2 {
+    width: 100%;
+    height: 100px;
+    /* border: 2px solid yellow; */
+}
+
+.section2 {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.shirt-img {
+    /* border: 2px solid green; */
+    width: 10%;
+    margin: 6px 12px;
+}
+
+.section3 {
+    /* border: 2px solid green; */
+}
+
+.imghead {
+    /* border: 2px solid red; */
+}
+
+.imghead img {
+    width: 100%;
+}
+
+.brand-items {
+    justify-content: center;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.brand-img {
+    width: 13%;
+    margin: 6px 18px;
+}
+
+footer {
+    /* border: 2px solid yellow; */
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 14px 14px;
+}
+
+footer #copyright {
+    font-size: 20px;
+    text-align: center;
+    /* border: 2px solid yellow; */
+}
+
+footer #d-s-m-h {
+    text-align: center;
+    font-size: 25px;
+}
+
+#link {
+    /* border: 2px solid green; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#link img {
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 20px;
+}
+
+.h-primary {
+    /* border: 2px solid red; */
+    font-family: 'Baloo Bhai', Cursive;
+    font-size: 2rem;
+    padding: 12px;
+}
+
+.h-secondary {
+    /* border: 2px solid red; */
+    font-family: 'Baloo Bhai', Cursive;
+    font-size: 1.5rem;
+    padding: 12px;
+}
+
+.btn {
+    cursor: pointer;
+    padding: 6px 26px;
+    margin: 10px 10px;
+    background-color: orange;
+    color: white;
+    border: 2px solid black;
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: brown;
+}
+
+.center {
+    text-align: center;
+}

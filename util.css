@@ -1,0 +1,29 @@
+.flex {
+    display: flex;
+}
+
+.align-item {
+    align-items: center;
+}
+
+.justify-content {
+    justify-content: center;
+}
+
+
+/* .space-between {
+    justify-content: space-between;
+} */
+
+.font-weight {
+    font-weight: bold;
+}
+
+.space-evenly {
+    justify-content: space-evenly;
+}
+
+.test-deco {
+    color: white;
+    text-decoration: none;
+}
